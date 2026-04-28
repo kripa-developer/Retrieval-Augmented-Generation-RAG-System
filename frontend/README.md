@@ -1,27 +1,30 @@
-# RagFrontend
+# Nexus AI - Knowledge Assistant (Frontend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+A premium **Angular** frontend for the Nexus AI RAG system. It provides a sleek, glassmorphic chat interface to interact with your private knowledge base.
 
-## Development server
+## ✨ Features
+- **Premium UI**: Modern dark-mode aesthetic with glassmorphism and smooth animations.
+- **Interactive Chat**: Real-time chat interface with loading states and AI avatars.
+- **Instant Upload**: Directly upload PDF documents to the AI backend from the browser.
+- **Responsive Design**: Built with vanilla CSS for maximum flexibility and performance.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Setup
 
-## Code scaffolding
+### Prerequisites
+- Node.js & npm
+- Angular CLI (`ng`)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Installation
+```bash
+npm install
+```
 
-## Build
+## 🏃 Running the App
+Run the development server:
+```bash
+npm start
+```
+Navigate to **http://localhost:4200/**. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🔌 Integration
+This frontend is configured to talk to the Spring Boot backend at `http://localhost:8080`. Ensure the backend is running before using the chat or upload features.
